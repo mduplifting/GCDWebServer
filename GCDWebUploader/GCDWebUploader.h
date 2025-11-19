@@ -156,7 +156,9 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  *  This method is the designated initializer for the class.
  */
+- (instancetype)init NS_UNAVAILABLE;
 - (instancetype)initWithUploadDirectory:(NSString*)path;
+- (instancetype)initWithUploadDirectory:(NSString*)path customHTMLBundle:(NSBundle * _Nullable )customBundle;
 
 @end
 
