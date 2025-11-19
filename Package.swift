@@ -37,6 +37,7 @@ let package = Package(
             ],
             resources: [
                 .copy("GCDWebUploader/GCDWebUploader.bundle"),
+                .copy("PrivacyInfo.xcprivacy")
             ],
             cSettings:[
                 .headerSearchPath("GCDWebServer/Core"),
